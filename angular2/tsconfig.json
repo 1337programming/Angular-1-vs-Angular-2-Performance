@@ -1,0 +1,22 @@
+{
+  "version": "1.5.0",
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "declaration": false,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "noLib": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "listFiles": true,
+    "outDir": "dist"
+  },
+  "files": [
+    "node_modules/typescript/lib/lib.dom.d.ts",
+    "app/typings/_custom.d.ts",
+    "app/app.ts",
+    "app/bootstrap.ts"
+  ]
+}
